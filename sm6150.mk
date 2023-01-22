@@ -24,7 +24,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 COMMON_PATH := device/samsung/sm6150-common
 
+PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_TARGET_VNDK_VERSION := 30
+PRODUCT_USE_DYNAMIC_PARTITIONS := false
 
 # AID/fs configs
 PRODUCT_PACKAGES += \
