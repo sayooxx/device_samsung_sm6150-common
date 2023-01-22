@@ -218,5 +218,8 @@ SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/public
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2022-12-01
 
+# Treble
+BOARD_VNDK_VERSION := current
+
 # Get non-open-source specific aspects
 include vendor/samsung/sm6150-common/BoardConfigVendor.mk
