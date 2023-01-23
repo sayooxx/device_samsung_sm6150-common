@@ -477,16 +477,6 @@
         <fqname>@1.0::ISehBluetoothAudioOffload/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.samsung.hardware.camera.provider</name>
-        <transport>hwbinder</transport>
-        <version>4.0</version>
-        <interface>
-            <name>ISehCameraProvider</name>
-            <instance>legacy/0</instance>
-        </interface>
-        <fqname>@4.0::ISehCameraProvider/legacy/0</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.samsung.hardware.gnss</name>
         <transport>hwbinder</transport>
         <version>2.0</version>
@@ -567,15 +557,5 @@
         <fqname>@2.0::ISehChannel/epdgd2</fqname>
         <fqname>@2.0::ISehChannel/imsd</fqname>
         <fqname>@2.0::ISehChannel/imsd2</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.snap</name>
-        <transport>hwbinder</transport>
-        <version>1.2</version>
-        <interface>
-            <name>ISehSnap</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.2::ISehSnap/default</fqname>
     </hal>
 </manifest>

@@ -150,6 +150,7 @@ PRODUCT_PACKAGES += \
     android.frameworks.cameraservice.device@2.0.vendor \
     android.frameworks.cameraservice.service@2.1.vendor \
     android.hardware.camera.provider@2.5-impl \
+    android.hardware.camera.provider@2.6-service.sm6150 \
     android.hardware.camera.provider@2.7 \
     android.hardware.camera.provider@2.7.vendor \
     android.hardware.camera.device@3.7 \
@@ -552,7 +553,6 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     $(COMMON_PATH)/rootdir/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     $(COMMON_PATH)/rootdir/vendor/etc/sec_config_oem:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config_oem \
-    $(COMMON_PATH)/rootdir/vendor/etc/snap_gpu_kernel_64.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_64.bin \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
