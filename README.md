@@ -22,7 +22,6 @@
 |     Device    | Codename |     Shipped Android Version    |
 |----------|----------|----------|
 | Galaxy A60 | a60q | 9 |
-| Galaxy A70F | a70f | 9 |
 | Galaxy A70 | a70q | 9 |
 | Galaxy A70S | a70s | 9 |
 | Galaxy A71 | a71 | 10 |
