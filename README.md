@@ -17,3 +17,15 @@
 # limitations under the License.
 #
 ```
+
+## Supported Devices
+|     Device    | Codename |     Shipped Android Version    |
+|----------|----------|----------|
+| Galaxy A60 | a60q | 9 |
+| Galaxy A70F | a70f | 9 |
+| Galaxy A70 | a70q | 9 |
+| Galaxy A70S | a70s | 9 |
+| Galaxy A71 | a71 | 10 |
+| Galaxy A80 | r1q | 9 |
+| Galaxy M40 | m40dd | 9 |
+| Galaxy M51 | m51 | 10 |
