@@ -59,7 +59,6 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usb.default \
     cplay \
-    libaudioconfigstore \
     libaudiofoundation \
     libaudioroute \
     libaudioutils \
@@ -129,9 +128,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
     aptxalsOverlay \
     audio.bluetooth.default \
-    com.qualcomm.qti.bluetooth_audio@1.0.vendor \
     libbluetooth_audio_session \
-    libbluetooth_qti \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor \
@@ -141,7 +138,6 @@ PRODUCT_PACKAGES += \
     android.frameworks.cameraservice.common@2.0.vendor \
     android.frameworks.cameraservice.device@2.0.vendor \
     android.frameworks.cameraservice.service@2.1.vendor \
-    android.hardware.camera.provider@2.5-impl \
     android.hardware.camera.provider@2.6-service.sm6150 \
     android.hardware.camera.provider@2.7.vendor \
     android.hardware.camera.device@3.7.vendor \
@@ -194,7 +190,6 @@ PRODUCT_PACKAGES += \
 # FM
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl \
-    android.hardware.broadcastradio@1.0-service \
 
 PRODUCT_PACKAGES += \
     FM2 \
@@ -209,7 +204,6 @@ PRODUCT_PACKAGES += \
 
 # GNSS/GPS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@2.1-impl-qti \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.gnss@2.1.vendor \
 
@@ -225,23 +219,18 @@ PRODUCT_COPY_FILES += \
 
 # Graphics
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.4-impl \
     android.hardware.graphics.composer@2.4-service \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     gralloc.sm6150 \
     hwcomposer.sm6150 \
-    libdisplayconfig.qti.vendor \
-    libqdMetaData.vendor \
     libsdmcore \
     libsdmutils \
     libtinyxml \
     libion \
     libvulkan \
-    vendor.display.color@1.5.vendor \
     vendor.display.config@1.11.vendor \
     vendor.display.config@2.0.vendor \
-    vendor.display.postproc@1.0.vendor \
     vendor.qti.hardware.capabilityconfigstore@1.0.vendor \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.mapper@1.0.vendor \
@@ -274,7 +263,6 @@ PRODUCT_PACKAGES += \
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0-service.samsung \
-    libskeymaster4device.vendor:64 \
     libkeymaster4support.vendor:64 \
     libkeymaster4_1support.vendor:64 \
 
@@ -333,10 +321,6 @@ PRODUCT_PACKAGES += \
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0 \
-
-# Neural Networks
-PRODUCT_PACKAGES += \
-    android.hardware.neuralnetworks@1.3-service-qti \
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -567,10 +551,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext \
 
-# TextClassifier
-PRODUCT_PACKAGES += \
-    textclassifier.bundle1 \
-
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.qti \
@@ -586,7 +566,6 @@ PRODUCT_PACKAGES += \
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service-qti \
-    android.hardware.usb.gadget@1.0-service-qti \
     android.hardware.usb@1.1.vendor \
 
 # Vendor Service Manager
