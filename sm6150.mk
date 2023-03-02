@@ -345,6 +345,7 @@ PRODUCT_COPY_FILES += \
 
 # OMX
 PRODUCT_PACKAGES += \
+    libc2dcolorconvert \
     libOmxAacEnc \
     libOmxAmrEnc \
     libOmxCore \
@@ -352,6 +353,9 @@ PRODUCT_PACKAGES += \
     libOmxG711Enc \
     libOmxQcelp13Enc \
     libmm-omxcore \
+    libOmxVdec \
+    libOmxVenc \
+    libOmxVidcCommon \
     libstagefright_softomx_plugin.vendor \
     libstagefright_softomx.vendor \
     libstagefrighthw \
