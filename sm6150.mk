@@ -28,7 +28,11 @@ COMMON_PATH := device/samsung/sm6150-common
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_CHARACTERISTICS := nosdcard
 PRODUCT_TARGET_VNDK_VERSION := 30
+ifeq ($(TARGET_USE_DYNAMIC_PARTITIONS),true)
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+else
 PRODUCT_USE_DYNAMIC_PARTITIONS := false
+endif
 
 # AID/fs configs
 PRODUCT_PACKAGES += \
@@ -496,6 +500,14 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qcom.usb.sh \
     init.qti.chg_policy.sh \
+
+ifeq ($(TARGET_USE_DYNAMIC_PARTITIONS),true)
+
+PRODUCT_PACKAGES += \
+    fstab.qcom \
+    fstab.qcom_ramdisk \
+
+endif
 
 # Recovery
 AB_OTA_UPDATER := false
