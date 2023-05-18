@@ -34,7 +34,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${ANDROID_ROOT}" true
 
 # Warning headers and guards
-write_headers "a60q a70f a70q a70s a71 m40dd m51 r1q"
+write_headers "a60q a70q a70s a71 m40dd m51 r1q"
 
 # The standard common blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
