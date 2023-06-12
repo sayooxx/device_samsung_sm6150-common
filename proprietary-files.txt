@@ -32,9 +32,6 @@ vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
 # Audio
 system_ext/etc/permissions/audiosphere.xml
 -system_ext/framework/audiosphere.jar
-vendor/bin/audioflacapp
-vendor/lib/hw/audio.primary.sm6150.so
-vendor/lib/hw/audio.sec_primary.default.so
 vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so
 vendor/lib/lib_SamsungRec_07002.so
 vendor/lib/lib_SoundAlive_3DPosition_ver202.so
@@ -62,7 +59,6 @@ vendor/lib/libsecaudioinfo.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib/vendor.samsung.hardware.audio@1.0.so
-vendor/lib64/hw/audio.sec_primary.default.so
 vendor/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so
 vendor/lib64/lib_SoundAlive_3DPosition_ver202.so
 vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so
