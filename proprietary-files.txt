@@ -733,9 +733,6 @@ vendor/lib/libsecnativefeature.so
 vendor/lib64/libsecnativefeature.so
 
 # Sensors
-vendor/bin/factory.ssc
-vendor/lib/libsensorlistener.so
-vendor/lib/libsensorndkbridge.so
 vendor/lib/libsensorslog.so
 vendor/lib/libsns_device_mode_stub.so
 vendor/lib/libsns_fastRPC_util.so
@@ -744,11 +741,7 @@ vendor/lib/libsns_registry_skel.so
 vendor/lib/libsnsapi.so
 vendor/lib/libssc.so
 vendor/lib/libssc_default_listener.so
-vendor/lib/sensors.grip.so
-vendor/lib/sensors.ssc.so
 vendor/lib64/libnanopb.so
-vendor/lib64/libsensorlistener.so
-vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libsensorslog.so
 vendor/lib64/libsns_device_mode_stub.so
 vendor/lib64/libsns_fastRPC_util.so
@@ -758,8 +751,17 @@ vendor/lib64/libsnsapi.so
 vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so
-vendor/lib64/sensors.grip.so
-vendor/lib64/sensors.ssc.so
+
+# Sensors - From a71naxx-user 13 TP1A.220624.014 A715FXXUADWE1 release-keys
+vendor/bin/factory.ssc|5f59b4241b85ee1bdcbcf0679fb94dde50ab3f37
+vendor/lib/libsensorlistener.so|38ff6c6ea0d4cd35190300d3a3809b44e14cbdaa
+vendor/lib/libsensorndkbridge.so|19d21a23455e5541b49bed1eb3cd76fff3fb6f30
+vendor/lib/sensors.grip.so|fc6e41632792d0a469c10f8faa9031724eb9f79e
+vendor/lib/sensors.ssc.so|c48aa3f4065b24b9093d33894de10ca9865b58ad
+vendor/lib64/libsensorlistener.so|f6483bfbf2f058fb897db7646d52bb62e52dd591
+vendor/lib64/libsensorndkbridge.so|a01f0d5a9c2c85d6e4492a3240c2a57e78f96fb8
+vendor/lib64/sensors.grip.so|e15f2868053f5ef450811b45bed2bf5baf0fe08e
+vendor/lib64/sensors.ssc.so|bba637183d8027bd494917a8ab9d468715c22160
 
 # Soundtrigger
 vendor/lib/libaudio_soundtrigger.so
