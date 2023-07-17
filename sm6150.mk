@@ -149,6 +149,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.6-service.sm6150 \
     android.hardware.camera.provider@2.7.vendor \
     android.hardware.camera.device@3.7.vendor \
+    Camera2 \
     libcamera2ndk_vendor \
     libdng_sdk.vendor \
     libgui_vendor:32 \
